@@ -23,4 +23,3 @@ Examples:
 Please prepare your entities table schema following the below schema:
 
 | AGENT_ID (int) | event_timestamp (datetime) | ... |
-| :--- |:----:| ---: |
