@@ -3,6 +3,10 @@
 ## Using GrowthFeatureExtractOperator
 
 ``` python
+from ai_ml_platform.plugins.operators.plato.feature_platform_operators import (
+    GrowthFeaturesExtractOperator,
+)
+
 GrowthFeaturesExtractOperator(
     task_id="<task_id>",
     entities_table="<YOUR_ENTITIES_TABLE>",
