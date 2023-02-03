@@ -68,10 +68,7 @@ and you want to combine it with features in feature store and write the result t
 
 ``` python
 # Define your data as SQL query
-entities = """
-SELECT *
-FROM `project-5400504384186300846.feature_platform.TEMP_ENTITIES_WITH_LABELS`
-"""
+entities = "project-5400504384186300846.feature_platform.TEMP_ENTITIES_WITH_LABELS`"
 
-fp.extract_historical_features_to_bq(entities, features=selected_features, destination='YourTableName')
+fp.extract_historical_features_to_dw(entity_table=entities, features=selected_features)
 ```
