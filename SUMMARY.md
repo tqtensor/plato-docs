@@ -6,6 +6,8 @@
 ## Getting Started
 
 * [Quickstart](getting-started/quickstart.md)
+* [Concepts](getting-started/concepts/README.md)
+  * [Feature Store](getting-started/concepts/feature-store.md)
 
 ## SDK guides
 
@@ -14,4 +16,4 @@
 
 ## For teams
 
-* [Guides for Growth team](for-teams/growth.md)
+* [Guides for Growth team](miscs/Growth.md)
