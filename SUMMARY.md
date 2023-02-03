@@ -5,9 +5,9 @@
 
 ## Getting Started
 
-* [Quickstart](getting-started/quickstart.md)
 * [Concepts](getting-started/concepts/README.md)
   * [Feature Store](getting-started/concepts/feature-store.md)
+* [Quickstart](getting-started/quickstart.md)
 
 ## SDK guides
 
