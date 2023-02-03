@@ -2,7 +2,7 @@
 
 ## Using GrowthFeatureExtractOperator
 
-``` python
+```python
 from ai_ml_platform.plugins.operators.plato.feature_platform_operators import (
     GrowthFeaturesExtractOperator,
 )
@@ -15,11 +15,11 @@ GrowthFeaturesExtractOperator(
 ```
 
 Examples:
-- DAG: [link](https://airflow-vnc.mservice.io/dags/ai_ml_platform_example_combine_feature/grid)
-- Entities table: `project-5400504384186300846.feature_platform.thang_entities_dec19`
-- Destination table: `project-5400504384186300846.feature_platform.GROWTH_ALL_FEATS`
 
+* DAG: [link](https://airflow-vnc.mservice.io/dags/ai\_ml\_platform\_example\_combine\_feature/grid)
+* Entities table: `project-5400504384186300846.feature_platform.thang_entities_dec19`
+* Destination table: `project-5400504384186300846.feature_platform.GROWTH_ALL_FEATS`
 
 Please prepare your entities table schema following the below schema:
 
-| AGENT_ID (int) | event_timestamp (datetime) | ... |
+`| AGENT_ID (int) | event_timestamp (datetime) | label (int) |`
