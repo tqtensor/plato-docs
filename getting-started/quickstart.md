@@ -102,7 +102,7 @@ from ai_ml_platform.plugins.operators.plato.feature_platform_operators import (
 And put it into your pipeline:
 
 ``` python
-GrowthFeaturesExtractOperator(
+FeatureExtractOperator(
     task_id="<task_id>",
     entity_table="<YOUR_ENTITIES_TABLE>",
     destination_table="<YOUR_DESTINATION_TABLE>",   # BQ table to persist extracted features for later processing steps.
