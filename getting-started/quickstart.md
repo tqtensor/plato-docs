@@ -89,8 +89,19 @@ fp.register_feature_set(
 )
 ```
 
-## Step 3. Start consuming features from your Airflow pipelines.
+## Step 3. Start consuming features
 
+## During modeling
+
+``` python
+dest_table = fp.extract_historical_features_to_dw(
+    entity_table='<YOUR_ENTITIES_TABLE>',
+    feature_set='<YOUR_FEATURE_SERVICE>',
+    destination_table='<YOUR_DESTINATION_TABLE>',
+)
+```
+
+### From your Airflow pipelines.
 In your DAG, import `PlatoFeatureRetrievalOperator`:
 
 ``` python
