@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [PLATO Roadmap](roadmap.md)
+* [PLATO The Feature Platform Roadmap](roadmap.md)
 
 ## Getting Started
 
