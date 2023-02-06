@@ -27,21 +27,24 @@ fp = FeaturePlatform()
 
 ``` python
 fp.list_feature_groups()
-# expected to return as below
-# ['user_promo_redeemed_90D_dow_stats',
-#  'user_promo_redeemed_90D_hour_stats',
-#  'user_glob_tx_6Ms',
-#  'user_balance_last_7Ds',
-#  'user_interaction_30Ds',
-#  'usr_tx_7D_wom_stats',
-#  'user_glob_tx_90Ds',
-#  'user_balance_60Ds',
-#  'user_promo_redeemed_90D_wom_stats',
-#  'user_event_1D',
-#  'user_promo_redeemed_30D_wom_stats',
-#  'user_promo_redeemed_1D_hour_stats',
-#  ...
-# ]
+```
+
+expected to return as below
+``` python
+['user_promo_redeemed_90D_dow_stats',
+ 'user_promo_redeemed_90D_hour_stats',
+ 'user_glob_tx_6Ms',
+ 'user_balance_last_7Ds',
+ 'user_interaction_30Ds',
+ 'usr_tx_7D_wom_stats',
+ 'user_glob_tx_90Ds',
+ 'user_balance_60Ds',
+ 'user_promo_redeemed_90D_wom_stats',
+ 'user_event_1D',
+ 'user_promo_redeemed_30D_wom_stats',
+ 'user_promo_redeemed_1D_hour_stats',
+ ...
+]
 ```
 
 (Optional) To see more details of a specific feature group
@@ -91,7 +94,7 @@ fp.register_feature_set(
 
 ## Step 3. Start consuming features
 
-## During modeling
+### During modeling
 
 ``` python
 dest_table = fp.extract_historical_features_to_dw(
