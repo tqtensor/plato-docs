@@ -13,12 +13,6 @@ In this tutorial, we will introduce to you some common use cases of browsing and
 
 TLDR: see [Tutorial Notebook](https://glab.mservice.io/ml-platform/plato-sdk/-/blob/master/docs/tutorials/tut-2-feature-retrieval.ipynb)
 
-### Prerequisites
-
-- Log in to gitlab with your GSuite account, then ping `hai.nguyen12` to have access to the SDK repository.
-- Get your environment authenticated with your user account using gcloud.
-- Your environment must have access to Momo's internal network when install the package. Onces the SDK installed, you can freely work with public network.
-
 ### Use cases
 
 - Discover existing features and their schemas
