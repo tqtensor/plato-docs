@@ -22,4 +22,4 @@ Examples:
 
 Please prepare your entities table schema following the below schema:
 
-`| AGENT_ID (int) | event_timestamp (datetime) | label (int) |`
+`| AGENT_ID (int) | event_timestamp (timestamp) | label (int) |`
