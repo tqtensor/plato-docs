@@ -7,6 +7,7 @@
 
 * [Concepts](getting-started/concepts/README.md)
   * [Feature Store](getting-started/concepts/feature-store.md)
+  * [Product Interfaces](getting-started/concepts/product-interfaces.md)
 * [Quickstart](getting-started/quickstart.md)
 * [FAQ](getting-started/faq.md)
 
