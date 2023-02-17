@@ -32,6 +32,10 @@ PlatoFeatureRetrievalOperator(
 )
 ```
 
+**Note**: destination table will be automatically stored in `feature_platform` dataset, so you only need to provide a table name, all features will be extracted and stored in full path as:
+
+`project-5400504384186300846.feature_platform.<YOUR_DESTINATION_TABLE>`
+
 ## Examples:
 
 * DAG: [link](https://airflow-vnc.mservice.io/dags/ai\_ml\_platform\_example\_combine\_feature/grid)
