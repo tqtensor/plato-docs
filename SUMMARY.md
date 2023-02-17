@@ -17,7 +17,7 @@
 * [Feature Retrieval](sdk-guides/feature-retrieval.md)
 
 ## Integration
-* [Airflow Pipeline](integration/airflow.md)
+* [Airflow Integration](integration/airflow.md)
 * [Dataproc (TBD)](integration/dataproc.md)
 
 ## For teams
