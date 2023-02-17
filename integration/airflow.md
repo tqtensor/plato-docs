@@ -5,9 +5,9 @@
 1. Prepare an entity table (which contains entities to extract features in a specific time)
 2. Import and attach operator into your DAG
 
-## Step 1: Make sure entity input follow
+## Step 1: Prepare Entity table
 
-Please prepare your entities table schema following the below schema:
+Make sure your entity table schema following the below schema:
 
 `| AGENT_ID (int) | event_timestamp (timestamp)`
 
