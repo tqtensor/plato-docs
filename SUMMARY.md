@@ -16,6 +16,10 @@
 * [Feature Discovery](sdk-guides/feature-discovery.md)
 * [Feature Retrieval](sdk-guides/feature-retrieval.md)
 
+## Integration
+* [Airflow Pipeline](integration/airflow.md)
+* [Dataproc (TBD)](integration/dataproc.md)
+
 ## For teams
 
 * [Guides for Growth team](for-teams/growth.md)
