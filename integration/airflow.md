@@ -27,7 +27,7 @@ And put it into your pipeline:
 PlatoFeatureRetrievalOperator(
     task_id="<task_id>",
     entity_table="<YOUR_ENTITIES_TABLE>",
-    feature_set="<YOUR_TEAM_FEATURE_SET>,
+    feature_set="<YOUR_TEAM_FEATURE_SET>",
     destination="<YOUR_DESTINATION_TABLE>",   # BQ table to persist extracted features for later processing steps.
 )
 ```
