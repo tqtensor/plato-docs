@@ -2,9 +2,9 @@
 
 In this tutorial, we will introduce to you some everyday use cases of browsing and retrieving features from the feature store with Plato SDK by covering the following:
 
-1. Initialize the FP instance
-2. List all existing features.
-3. Get the schema of a particular feature group.
+1. Initialize the Feature Platform object
+2. List all existing features
+3. Get the schema of a particular feature group
 4. Search feature with regex-based query
 5. Get historical features by timestamp
 
@@ -20,7 +20,7 @@ TLDR: See [Tutorial Notebook](https://glab.mservice.io/ml-platform/plato-sdk/-/b
 
 ## Step 1: Install Plato SDK
 
-Install the PLATO SDK via pip:
+Install the Plato SDK via pip:
 
 > In this tutorial, we focus on a local usage. For a more in-depth guide on how to use Plato with scale, we will add some documentation afterwards.
 
@@ -28,7 +28,7 @@ Install the PLATO SDK via pip:
 pip install git+ssh://git@gitlab.mservice.com.vn/ml-platform/plato-sdk@v0.2.0
 ```
 
-## Step 2: Initialize FeaturePlatform object
+## Step 2: Initialize Feature Platform object
 
 ```python
 from plato.feature_platform import FeaturePlatform

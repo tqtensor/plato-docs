@@ -13,9 +13,9 @@
 pip install git+ssh://git@gitlab.mservice.com.vn/ml-platform/plato-sdk@v0.2.0
 ```
 
-## Step 2. Select features for your project.\`
+## Step 2. Select Features for your project
 
-### Initialize FeaturePlatform object
+### Initialize Feature Platform object
 
 ```python
 from plato.feature_platform import FeaturePlatform
@@ -23,7 +23,7 @@ from plato.feature_platform import FeaturePlatform
 fp = FeaturePlatform()
 ```
 
-### Discover existing feature groups
+### Discover existing Feature Groups
 
 ```python
 fp.list_feature_groups()
@@ -72,7 +72,7 @@ This function returns a dict object containing what you need to know about a fea
    DEVICE_COUNT_DISTINCT_APP_INSTALL_SOURCE-Int64]}}
 ```
 
-### Register selected features as a feature service
+### Register selected Features as a Feature Service
 
 Create your feature service for later use; you can reuse others' feature services without re-declaring.
 
@@ -94,7 +94,7 @@ fp.register_feature_set(
 )
 ```
 
-## Step 3. Start consuming features
+## Step 3. Start consuming Features
 
 ### During modeling
 
