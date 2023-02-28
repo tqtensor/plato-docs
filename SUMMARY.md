@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [PLATO The Feature Platform Roadmap](roadmap.md)
+* [\[Plato\] The Feature Platform Roadmap](roadmap.md)
 
 ## Getting Started
 

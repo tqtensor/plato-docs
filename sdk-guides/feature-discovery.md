@@ -8,7 +8,7 @@ TLDR: check out the tutorial [notebook](https://glab.mservice.io/ml-platform/pla
 
 ### Step 1: Install Plato SDK
 
-Install the PLATO SDK via pip:
+Install the Plato SDK via pip:
 
 > In this tutorial, we focus on a local usage. For a more in-depth guide on how to use Plato with scale, we will add some documentation afterwards.
 
