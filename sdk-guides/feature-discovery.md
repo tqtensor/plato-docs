@@ -1,9 +1,8 @@
 # Feature Discovery
 
-Feature discovery is the process of identifying relevant features from data that can be used in machine learning models. In a feature store, feature discovery refers to the process of identifying and extracting features from raw data that can be stored and reused for multiple machine learning models. This helps to increase the efficiency and accuracy of models by reusing pre-computed features and reducing the need to recompute features for every new model.
+Feature discovery is identifying relevant features from data that can be used in machine learning models. In a feature store, feature discovery refers to identifying and extracting features from raw data that can be stored and reused for multiple machine-learning models. This helps to increase the efficiency and accuracy of models by reusing pre-computed features and reducing the need to recompute features for every new model.
 
-
-TLDR: check out tutorial [notebook](https://glab.mservice.io/ml-platform/plato-sdk/-/blob/master/docs/tutorials/tut-1-feature-discovery.ipynb)
+TLDR: check out the tutorial [notebook](https://glab.mservice.io/ml-platform/plato-sdk/-/blob/master/docs/tutorials/tut-1-feature-discovery.ipynb)
 
 ## Prerequisites
 
@@ -17,8 +16,7 @@ Install the PLATO SDK via pip:
 pip install git+ssh://git@gitlab.mservice.com.vn/ml-platform/plato-sdk@v0.2.0
 ```
 
-
-### Step 2: Initialize FeaturePlatform instance
+### Step 2: Initialize Feature Platform object
 
 ```python
 from plato.feature_platform import FeaturePlatform
@@ -27,11 +25,12 @@ fp = FeaturePlatform()
 ```
 
 ## Use cases
-### 1. Browsing features in feature store
+
+### 1. Browsing Features in Feature Store
 
 #### List down all feature groups
 
-``` python
+```python
 fp.list_feature_groups()
 # expected to return as below
 # ['user_promo_redeemed_90D_dow_stats',
@@ -50,12 +49,14 @@ fp.list_feature_groups()
 # ]
 ```
 
-### 2. Describe a feature group
-``` python
+### 2. Describe a Feature Group
+
+```python
 fp.describe_feature_group('user_interaction_30Ds')
 ```
 
 This function returns a dict object contains what you need to know about a feature group.
+
 ```
 {'name': 'user_interaction_30Ds',
  'created_at': datetime.datetime(2023, 1, 6, 4, 28, 19, 896186),

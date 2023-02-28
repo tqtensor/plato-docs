@@ -2,10 +2,10 @@
 
 ## Prerequisites
 
-- Log in to gitlab with your GSuite account.
-- Get your environment authenticated with your user account using gcloud.
-- Your environment must have access to Momo's internal network when install the package. Onces the SDK installed, you can freely work with public network.
-- If you get any errors while installing or using the SDK, please contact `hai.nguyen12`.
+* Log in to GitLab with your GSuite account.
+* Get your environment authenticated with your user account using gcloud.
+* When installing the package, your environment must have access to Momo's internal network. Once the SDK is installed, you can freely work with the public network.
+* If you get any errors while installing or using the SDK, please contact `hai.nguyen12`.
 
 ## Step 1. Installation
 
@@ -13,9 +13,9 @@
 pip install git+ssh://git@gitlab.mservice.com.vn/ml-platform/plato-sdk@v0.2.0
 ```
 
-## Step 2. Select features for your project.
+## Step 2. Select features for your project.\`
 
-### Initialize Feature Platform object
+### Initialize FeaturePlatform object
 
 ```python
 from plato.feature_platform import FeaturePlatform
@@ -25,12 +25,13 @@ fp = FeaturePlatform()
 
 ### Discover existing feature groups
 
-``` python
+```python
 fp.list_feature_groups()
 ```
 
 expected to return as below
-``` python
+
+```python
 ['user_promo_redeemed_90D_dow_stats',
  'user_promo_redeemed_90D_hour_stats',
  'user_glob_tx_6Ms',
@@ -47,13 +48,14 @@ expected to return as below
 ]
 ```
 
-(Optional) To see more details of a specific feature group
+(Optional) To see more details of a specific feature group,
 
-``` python
+```python
 fp.describe_feature_group('user_interaction_30Ds')
 ```
 
-This function returns a dict object contains what you need to know about a feature group.
+This function returns a dict object containing what you need to know about a feature group.
+
 ```
 {'name': 'user_interaction_30Ds',
  'created_at': datetime.datetime(2023, 1, 6, 4, 28, 19, 896186),
@@ -72,9 +74,9 @@ This function returns a dict object contains what you need to know about a featu
 
 ### Register selected features as a feature service
 
-Create your own feature service for later use, you can also re-use others' feature service without re-declaring all over again.
+Create your feature service for later use; you can reuse others' feature services without re-declaring.
 
-``` python
+```python
 
 selected_groups = [
     'user_balance_last_7Ds',
@@ -96,7 +98,7 @@ fp.register_feature_set(
 
 ### During modeling
 
-``` python
+```python
 dest_table = fp.extract_historical_features_to_dw(
     entity_table='<YOUR_ENTITIES_TABLE>',
     feature_set='<YOUR_FEATURE_SERVICE>',
@@ -104,10 +106,11 @@ dest_table = fp.extract_historical_features_to_dw(
 )
 ```
 
-### From your Airflow pipelines.
+### From your Airflow pipelines
+
 In your DAG, import `PlatoFeatureRetrievalOperator`:
 
-``` python
+```python
 from ai_ml_platform.plugins.operators.plato.feature_platform_operators import (
     PlatoFeatureRetrievalOperator,
 )
@@ -115,7 +118,7 @@ from ai_ml_platform.plugins.operators.plato.feature_platform_operators import (
 
 And put it into your pipeline:
 
-``` python
+```python
 PlatoFeatureRetrievalOperator(
     task_id="<task_id>",
     entity_table="<YOUR_ENTITIES_TABLE>",
@@ -123,4 +126,4 @@ PlatoFeatureRetrievalOperator(
 )
 ```
 
-Check out full example at: [TBD]
+Check out the full example at \[TBD]
