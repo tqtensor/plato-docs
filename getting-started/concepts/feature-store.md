@@ -8,6 +8,6 @@ It provides a centralized location for storing, transforming, and sharing featur
 
 The offline feature store holds all historical values of features to be used for training or batch inference. PLATO plugs directly into the BigQuery data warehouse for offline storage.
 
-## Online Feature Store
+## Online feature store
 
-The online feature store is a low-latency key-value store with the latest pre-computed feature values. It is located in an online environment and is used to look up features for online inference.
+The Online Feature Store is a low-latency key-value store with the latest pre-computed feature values. It is located in an online environment and is used to look up features for online inference.
