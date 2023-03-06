@@ -9,11 +9,11 @@ A feature is a measurable property of the object you're trying to analyze, and i
    1. Measured Values: the measured value of each instance of that Property; therefore, the measured value must come with a timestamp where the Measurement is taken.
    2. Aggregation Method: the computation method to be applied to valid measured values based on the CP and Time Dimension combination.
 
-<figure><img src="../../.gitbook/assets/feature_definition.png" alt=""><figcaption><p>Atomic View of a Feature</p></figcaption></figure>
+<center><figure><img src="../../.gitbook/assets/feature_definition.png" alt="" width="50%"><figcaption><p>Atomic View of a Feature</p></figcaption></figure></center>
 
 A real-world example.
 
-<figure><img src="../../.gitbook/assets/feature_example.png" alt=""><figcaption><p>Feature Example</p></figcaption></figure>
+<center><figure><img src="../../.gitbook/assets/feature_example.png" alt="" width="50%"><figcaption><p>Feature Example</p></figcaption></figure></center>
 
 What happens with Hierarchical Property?\
 \

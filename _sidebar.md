@@ -1,13 +1,14 @@
 # Table of Contents
 
 * [Introduction](README.md)
-* [\[Plato\] - The Feature Platform Roadmap](roadmap.md)
+* [Roadmap](roadmap.md)
 
 ## Getting Started
 
 * [Concepts](getting-started/concepts/README.md)
   * [Feature Definition](getting-started/concepts/feature-definition.md)
   * [Feature Store](getting-started/concepts/feature-store.md)
+  * [Materialization](getting-started/concepts/materialization.md)
   * [Product Interfaces](getting-started/concepts/product-interfaces.md)
 * [Quickstart](getting-started/quickstart.md)
 * [FAQ](getting-started/faq.md)
