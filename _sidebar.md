@@ -1,7 +1,7 @@
-# Table of contents
+# Table of Contents
 
 * [Introduction](README.md)
-* [\[Plato\] The Feature Platform Roadmap](roadmap.md)
+* [\[Plato\] - The Feature Platform Roadmap](roadmap.md)
 
 ## Getting Started
 
@@ -12,7 +12,7 @@
 * [Quickstart](getting-started/quickstart.md)
 * [FAQ](getting-started/faq.md)
 
-## SDK guides
+## SDK Guides
 
 * [Feature Discovery](sdk-guides/feature-discovery.md)
 * [Feature Retrieval](sdk-guides/feature-retrieval.md)
@@ -22,6 +22,6 @@
 * [Airflow Integration](integration/airflow.md)
 * [Dataproc (TBD)](integration/dataproc.md)
 
-## For teams
+## For Teams
 
-* [Guides for Growth team](for-teams/growth.md)
+* [Guides for Growth Team](for-teams/growth.md)

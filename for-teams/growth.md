@@ -1,4 +1,4 @@
-# Guides for Growth team
+# Guides for Growth Team
 
 ## Using GrowthFeatureExtractOperator
 

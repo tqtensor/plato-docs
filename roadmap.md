@@ -1,7 +1,6 @@
-# PLATO The Feature Platform Roadmap
+# The Feature Platform Roadmap
 
-The list below contains the functionality that contributors are planning to develop for Plato.
-
+The list below contains the functionality that contributors are planning to develop for [Feature Platform] Plato.
 
 * **Core Built-in Feature Groups**
   * [x] Map bank features

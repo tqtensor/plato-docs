@@ -6,7 +6,7 @@ It provides a centralized location for storing, transforming, and sharing featur
 
 ## Offline Feature Store
 
-The offline feature store holds all historical values of features to be used for training or batch inference. PLATO plugs directly into the BigQuery data warehouse for offline storage.
+The offline feature store holds all historical values of features to be used for training or batch inference. Plato plugs directly into the BigQuery data warehouse for offline storage.
 
 ## Online Feature Store
 

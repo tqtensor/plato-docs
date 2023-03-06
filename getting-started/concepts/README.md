@@ -1,5 +1,5 @@
 ---
-description: Let's go through some of key concepts of PLATO Platform
+description: Let's go through some of key concepts of Plato Platform
 ---
 
 # Concepts
